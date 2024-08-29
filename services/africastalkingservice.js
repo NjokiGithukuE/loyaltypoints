@@ -60,9 +60,8 @@ require("dotenv").config();
 
 const options = {
   apiKey:
-    process.env.AFRICASTALKING_API_KEY ||
-    "55080c4523fc86649eb51a973005740271981968c297f9d633b5be13ab594c71",
-  username: process.env.AFRICASTALKING_USERNAME || "vasmobile",
+    "atsk_cbd3d725c376715e139a99701f59f9f8306fe932d14c7252944235d16f54e1b2be53399d",
+  username: "sandbox",
 };
 
 const Africastalking = require("africastalking")(options);

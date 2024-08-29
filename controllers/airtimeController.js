@@ -8,6 +8,7 @@ const calculateLoyaltyPoints = (amount) => {
 exports.sendAirtime = async (req, res) => {
     try {
         const { phoneNumber, amount } = req.body;
+        console.log(req.body);
 
         // if (!phoneNumber || !amount) {
         //     return res.status(400).json({ error: 'Phone number and amount are required' });
